@@ -19,21 +19,9 @@ span {
   padding-bottom: 5px;
 }
 
-p.classy1 {
+p.classy {
   margin-left: 10px;
   word-wrap: normal;
-  color: black;
-}
-
-p.classy2 {
-  margin-left: 10px;
-  display: absolute;
-  color: blue;
-}
-
-p.classy3 {
-  margin-left: 10px;
-  word-wrap: break-word;
   color: black;
 }
 
