@@ -30,7 +30,7 @@ p.classy {
 }
 
 #d1 {
-  
+  word-wrap: normal;
 }
 
 #d2 {
@@ -38,5 +38,5 @@ p.classy {
 }
 
 #d3 {
-  
+  word-wrap: break-word;
 }
