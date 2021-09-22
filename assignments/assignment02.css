@@ -30,7 +30,7 @@ p.classy {
 }
 
 #d1 {
-  display: inline;
+  display: block;
   word-wrap: normal;
 }
 
@@ -39,6 +39,6 @@ p.classy {
 }
 
 #d3 {
-  display: inline-block;
+  display: none;
   word-wrap: break-word;
 }
