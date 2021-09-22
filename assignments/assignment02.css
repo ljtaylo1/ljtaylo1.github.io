@@ -19,7 +19,17 @@ span {
   padding-bottom: 5px;
 }
 
-p.classy {
+p.classy1 {
+  margin-left: 10px;
+  color: red;
+}
+
+p.classy2 {
+  margin-left: 10px;
+  color: red;
+}
+
+p.classy3 {
   margin-left: 10px;
   color: red;
 }
