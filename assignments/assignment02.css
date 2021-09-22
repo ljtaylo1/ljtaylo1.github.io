@@ -3,9 +3,24 @@ body {
   
 }
 
-#PartA {
+#parta {
+  text-align: center;
+  color: pink;
+}
+
+#partb {
+  text-align: center;
+  color: purple;
+}
+
+#partc {
   text-align: center;
   color: red;
+}
+
+#partd {
+  text-align: center;
+  color: yellow;
 }
 
  {
