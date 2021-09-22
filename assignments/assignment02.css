@@ -21,17 +21,20 @@ span {
 
 p.classy1 {
   margin-left: 10px;
-  color: red;
+  word-wrap: normal;
+  color: black;
 }
 
 p.classy2 {
   margin-left: 10px;
+  display: absolute;
   color: blue;
 }
 
 p.classy3 {
   margin-left: 10px;
-  color: yellow;
+  word-wrap: break-word;
+  color: black;
 }
 
 #igottabeme {
