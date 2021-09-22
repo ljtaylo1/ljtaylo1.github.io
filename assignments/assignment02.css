@@ -1,31 +1,20 @@
 body {
   background-color: #efefef;
+}
+
+div {
+  
+}
+
+span {
+  
+}
+
+.classy {
   
 }
 
 #parta {
   text-align: center;
   color: pink;
-}
-
-#partb {
-  text-align: center;
-  color: purple;
-}
-
-#partc {
-  text-align: center;
-  color: red;
-}
-
-#partd {
-  text-align: center;
-  color: yellow;
-}
-
- {
-  text-align: center;
-  font-size: 1em;
-  color: #009;
-  margin-left: 10px;
 }
