@@ -6,6 +6,13 @@ div {
   margin-bottom: 50px;
 }
 
+nav {
+  position: sticky;
+  color: green;
+  opacity: 90%;
+  padding: 5px;
+}
+
 span {
   background-color: #FFFACD;
   border-style: solid;
