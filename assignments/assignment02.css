@@ -6,7 +6,7 @@ div {
   margin-bottom: 50px;
 }
 
-nav {
+#nav {
   position: sticky;
   color: green;
   opacity: 90%;
