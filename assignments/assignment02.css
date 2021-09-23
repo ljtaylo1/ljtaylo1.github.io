@@ -6,7 +6,7 @@ div {
   margin-bottom: 50px;
 }
 
-#navigation.sticky {
+ul.sticky {
   position: sticky;
   background-color: green;
   font-size: 20px;
