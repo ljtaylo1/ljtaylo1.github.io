@@ -9,6 +9,7 @@ div {
 #navigation {
   position: sticky;
   color: green;
+  font-size: 20px;
   opacity: 90%;
   padding: 5px;
 }
