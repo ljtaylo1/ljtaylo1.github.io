@@ -7,25 +7,16 @@ div {
 }
 
 nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-
-nav.sticky {
-  display: block;
-  width: 60px;
   position: sticky;
-  background-color: green;
+  top: 0;
+  background-color: lime;
+  opacity: 0.9;
+  bar-padding: 5px;
   font-size: 20px;
-  opacity: 90%;
-  padding: 5px;
 }
 
 span {
-  background-color: #FFFACD;
+  background-color: yellow;
   border-style: solid;
   border-width: 5px;
   border-color: blue;
@@ -41,6 +32,37 @@ p.classy {
   margin-left: 10px;
   word-wrap: normal;
   color: black;
+}
+
+.a {
+  overflow-wrap: normal;  
+}
+
+.b {
+  display: block;
+}
+
+.c {
+  display: inline-block;
+}
+
+img[alt="cat icon"]{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+img[alt="dog icon"]{
+  position: relative;
+  right: 50px;
+  bottom: 150px;
+}
+
+img[alt="bird icon"]{
+  position: relative;
+  left: 250px;
+  top: 150px;
+  z-index: 1;
 }
 
 #igottabeme {
