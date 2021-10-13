@@ -82,6 +82,23 @@ elem[18].children[4].children[0].onclick = function(){add1(elem[18]);};
 
 // assign a function to the - buttons //
 elem[1].children[4].children[1].onclick = function(){sub1(elem[1]);};
+elem[2].children[4].children[1].onclick = function(){sub1(elem[2]);};
+elem[3].children[4].children[1].onclick = function(){sub1(elem[3]);};
+elem[4].children[4].children[1].onclick = function(){sub1(elem[4]);};
+elem[5].children[4].children[1].onclick = function(){sub1(elem[5]);};
+elem[6].children[4].children[1].onclick = function(){sub1(elem[6]);};
+elem[7].children[4].children[1].onclick = function(){sub1(elem[7]);};
+elem[8].children[4].children[1].onclick = function(){sub1(elem[8]);};
+elem[9].children[4].children[1].onclick = function(){sub1(elem[9]);};
+elem[10].children[4].children[1].onclick = function(){sub1(elem[10]);};
+elem[11].children[4].children[1].onclick = function(){sub1(elem[11]);};
+elem[12].children[4].children[1].onclick = function(){sub1(elem[12]);};
+elem[13].children[4].children[1].onclick = function(){sub1(elem[13]);};
+elem[14].children[4].children[1].onclick = function(){sub1(elem[14]);};
+elem[15].children[4].children[1].onclick = function(){sub1(elem[15]);};
+elem[16].children[4].children[1].onclick = function(){sub1(elem[16]);};
+elem[17].children[4].children[1].onclick = function(){sub1(elem[17]);};
+elem[18].children[4].children[1].onclick = function(){sub1(elem[18]);};
 
 // create an "add1" function
 function add1 (elem) {
