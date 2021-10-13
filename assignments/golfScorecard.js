@@ -80,6 +80,9 @@ elem[16].children[4].children[0].onclick = function(){add1(elem[16]);};
 elem[17].children[4].children[0].onclick = function(){add1(elem[17]);};
 elem[18].children[4].children[0].onclick = function(){add1(elem[18]);};
 
+// assign a function to the - buttons //
+elem[1].children[4].children[1].onclick = function(){sub1(elem[1]);};
+
 // create an "add1" function
 function add1 (elem) {
   if(elem.children[2].innerHTML == "-") 
@@ -88,5 +91,16 @@ function add1 (elem) {
     let currentScore = elem.children[2].innerHTML;
     currentScore = Number.parseInt(currentScore);
     elem.children[2].innerHTML = currentScore + 1;
+  }
+}
+
+// create an "sub1" function
+function sub1 (elem) {
+  if(elem.children[2].innerHTML == "-") 
+    elem.children[2].innerHTML = "-";
+  else {
+    let currentScore = elem.children[2].innerHTML;
+    currentScore = Number.parseInt(currentScore);
+    elem.children[2].innerHTML = currentScore - 1;
   }
 }
