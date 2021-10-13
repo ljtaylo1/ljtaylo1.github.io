@@ -90,14 +90,3 @@ function add1 (elem) {
     elem.children[2].innerHTML = currentScore + 1;
   }
 }
-
-// create an "sub1" function
-function sub1 (elem) {
-  if(elem.children[2].innerHTML == "-") 
-    elem.children[2].innerHTML = "-";
-  else {
-    let currentScore = elem.children[2].innerHTML;
-    currentScore = Number.parseInt(currentScore);
-    elem.children[2].innerHTML = currentScore - 1;
-  }
-}
