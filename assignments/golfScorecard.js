@@ -60,8 +60,8 @@ elem[18]
 // console.log(elem.children[4].children[0]); 
 
 // assign a function to the + button
-elem[1].children[4].children[0].onclick 
-  = function(){add1(elem[1]);};
+elem[1].children[4].children[0].onclick = function(){add1(elem[1]);};
+elem[2].children[4].children[0].onclick = function(){add1(elem[2]);};
 
 // create an "add1" function
 function add1 (elem) {
