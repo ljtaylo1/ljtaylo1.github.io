@@ -113,7 +113,7 @@ function add1 (elem) {
 
 // create an "sub1" function
 function sub1 (elem) {
-  if(elem.children[2].innerHTML == "-" | "1")
+  if(elem.children[2].innerHTML == "1")
     elem.children[2].innerHTML = "-";
   else {
     let currentScore = elem.children[2].innerHTML;
