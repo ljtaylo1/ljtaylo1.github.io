@@ -115,6 +115,8 @@ function add1 (elem) {
 function sub1 (elem) {
   if(elem.children[2].innerHTML == "1")
     elem.children[2].innerHTML = "-";
+  else if(elem.children[2].innerHTML == "-")
+    elem.children[2].innerHTML == "-"
   else {
     let currentScore = elem.children[2].innerHTML;
     currentScore = Number.parseInt(currentScore);
