@@ -106,8 +106,6 @@ function add1 (elem) {
     elem.children[2].innerHTML = "1";
   else if(elem.children[2].innerHTML == elem.children[1].innerHTML)
     elem.children[3].innerHTML == "1";
-  else if(elem.children[2].innerHTML >= elem.children[1].innerHTML)
-    elem.children[3].innerHTML + 1;
   else {
     let currentScore = elem.children[2].innerHTML;
     currentScore = Number.parseInt(currentScore);
