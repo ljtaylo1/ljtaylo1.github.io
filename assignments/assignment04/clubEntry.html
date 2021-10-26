@@ -51,7 +51,23 @@
 	let newClubDistances;
 	
 	function addClub() {
-        // your code here
+		let newClubName = document.getElementById('clubName').value;
+
+		clubs.push([1699, "new", newClubName,   0, 0, 0, 0, 60.0,   3,   3]);
+
+		str = JSON.stringify(clubs);
+
+		localStorage.setItem("clubs", str);
+
+		let tblbody = document.getElementById('clubTable').children[0]; 
+		let row = tblbody.insertRow(14);
+		let cell6 = row.insertCell(6);
+		cell6.className = "cmn_fullHeight";
+		cell6.innerHTML = newClubName;
+
+		document.getElementById("a1").style.display = 'none';
+
+		window.location.href = "clubDistanceList.html";
 	}
 	
 	// navigate to club distance LIST screen
