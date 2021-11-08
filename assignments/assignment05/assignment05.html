@@ -1,4 +1,4 @@
-<h2>Example Chart using Chart.js</h2>
+<h2 id="id1">Example Chart using Chart.js</h2>
 <canvas id="myChart"></canvas>
 
 <h2>Example AJAX call to Covid19api</h2>
@@ -17,7 +17,7 @@
   dayjs().format();
   console.log(dayjs().format("YYYY-MM-DD"));
 
-  document.getElementByID("id").innerHTML = dayjs().format("YYYY-MM-DD");
+  document.getElementByID("id1").innerHTML = dayjs().format("YYYY-MM-DD");
 </script>
 // ---------- Global variables ----------
 
@@ -145,11 +145,13 @@ function loadContent() {
     } // end if
     
   }; // end xhttp.onreadystatechange = function()
-  
+  let URL = "https://api.covid19api.com/summary";
   xhttp.open("GET", URL, true);
   xhttp.send();
   
 } // end function loadContent() 
+
+setInterval(loadContent(), 86400000);
 
 // data from: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
 var populations = {
@@ -254,19 +256,4 @@ var populations = {
 'austria' : 8915382,
 'switzerland' : 8632703,
 }
-
-// step2 
-// new array 
-// loop through all covidJsObj.Countries[i] 
-// push all info i need
-/*
-var newArray = [] 
-for (let i=0; i<covidJsObj.Countries.length; i++) {
-  newArray.push({
-    "Slug": "\"" + covidJsObj.Countries[i].Slug + "\"",
-    "TotalConfirmed": covidJsObj.Countries[i].TotalConfirmed
-    // continue here...
-  })
-  
-}
-*/
+</script>
