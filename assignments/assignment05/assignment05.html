@@ -110,8 +110,8 @@ function loadContent() {
             "Slug": c.Slug, 
             "NewConfirmed": c.NewConfirmed, 
             "NewDeaths": c.NewDeaths
-            "TotalConfirmed": c.Slug, 
-            "TotalDeaths": c.NewConfirmed, 
+            "TotalConfirmed": c.TotalConfirmed, 
+            "TotalDeaths": c.TotalDeaths, 
             "TotalConfirmedPer100000": c.TotalConfirmed/populations[c.Slug]*100000,
             "Population": populations[c.Slug] 
           });
