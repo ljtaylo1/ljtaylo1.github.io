@@ -1,26 +1,3 @@
-<h2 id="id01">Justin's Example Chart using Chart.js</h2>
-<canvas id="myChart"></canvas>
-
-<h2>Justin's Example AJAX call to Covid19api</h2>
-<button type="button" onclick="loadContent()">Load Covid-19 Content</button>
-
-
-<!-- ChartJS: https://www.chartjs.org/ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
-
-<!-- Lodash: https://lodash.com/ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
-
-<!-- Day.js: https://day.js.org/docs/en/installation/browser -->
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<script>
-  dayjs().format();
-  console.log(dayjs().format("YYYY-MM-DD"));
-
-  document.getElementById("id01").innerHMTL = dayjs().format("YYYY-MM-DD");
-// ---------- Global variables ---------- 
-// use "var" keyword so code works in CodePen
-
 // Covid19api variables
 var URL = "https://api.covid19api.com/summary";
 var covidJson;
