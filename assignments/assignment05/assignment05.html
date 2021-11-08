@@ -105,11 +105,15 @@ function loadContent() {
       newConfirmedOver1000 = [];
       
 	    for (let c of covidJsObj.Countries) {
-        if (c.NewConfirmed > 5000) {
+        if (c.NewConfirmed > 50000) {
           newConfirmedOver1000.push({ 
             "Slug": c.Slug, 
             "NewConfirmed": c.NewConfirmed, 
             "NewDeaths": c.NewDeaths
+            "TotalConfirmed": c.Slug, 
+            "TotalDeaths": c.NewConfirmed, 
+            "TotalConfirmedPer100000": c.TotalConfirmed/populations[c.Slug]*100000,
+            "Population": populations[c.Slug] 
           });
         }
       }
