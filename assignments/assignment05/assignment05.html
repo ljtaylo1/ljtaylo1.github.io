@@ -135,6 +135,9 @@ function loadContent() {
       chartData.data.datasets[1].data  
         = newConfirmedOver1000.map( 
           (x) => x.NewDeaths );
+      chartData.data.datasets[2].data
+	= newConfirmedOver1000.map(
+	  (x) => x.TotalConfirmed/populations[x.Slug]*100000);
       chartData.options.title.text 
         = "Covid 19 Hotspots" ;
       myChart = new Chart(ctx, chartData); 
