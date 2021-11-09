@@ -140,7 +140,7 @@ function loadContent() {
             "Population": populations[c.slug]
           });
         }
-        newConfirmedOver1000 =_.orderBy(newConfirmedOver1000,'TotalConfirmedPer100000', 'desc');
+        newConfirmedOver1000 =_.orderBy(newConfirmedOver1000,'TotalDeaths', 'desc');
       }
  //if(newConfirmedOver1000.x.TotalDeaths >50000)
       chartData.data.datasets[0].backgroundColor 
