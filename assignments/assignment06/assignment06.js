@@ -55,6 +55,10 @@ function loadDoc() {
 } // end: function loadDoc()
 
 
+function processForm() {
+  
+}
+
 function toComma(value) {
     return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
